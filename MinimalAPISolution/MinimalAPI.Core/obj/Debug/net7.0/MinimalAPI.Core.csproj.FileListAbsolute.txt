@@ -1,0 +1,12 @@
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.deps.json
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.pdb
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.csproj.AssemblyReference.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.AssemblyInfoInputs.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.AssemblyInfo.cs
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.csproj.CoreCompileInputs.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\refint\MinimalAPI.Core.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.pdb
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\ref\MinimalAPI.Core.dll

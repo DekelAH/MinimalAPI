@@ -1,0 +1,17 @@
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Infrastructure.deps.json
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Infrastructure.runtimeconfig.json
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Infrastructure.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Infrastructure.pdb
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Core.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\bin\Debug\net7.0\MinimalAPI.Core.pdb
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.csproj.AssemblyReference.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.AssemblyInfo.cs
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.csproj.CopyComplete
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\refint\MinimalAPI.Infrastructure.dll
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.pdb
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\MinimalAPI.Infrastructure.genruntimeconfig.cache
+D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Infrastructure\obj\Debug\net7.0\ref\MinimalAPI.Infrastructure.dll
