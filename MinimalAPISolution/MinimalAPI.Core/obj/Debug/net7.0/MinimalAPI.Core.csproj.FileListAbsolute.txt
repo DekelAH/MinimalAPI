@@ -10,3 +10,15 @@ D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\
 D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\refint\MinimalAPI.Core.dll
 D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.pdb
 D:\Programming\ASP.NET Core\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\ref\MinimalAPI.Core.dll
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.deps.json
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.dll
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\bin\Debug\net7.0\MinimalAPI.Core.pdb
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.csproj.AssemblyReference.cache
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.AssemblyInfoInputs.cache
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.AssemblyInfo.cs
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.csproj.CoreCompileInputs.cache
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.dll
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\refint\MinimalAPI.Core.dll
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\MinimalAPI.Core.pdb
+D:\Programming\Github Projects\MinimalAPI\MinimalAPISolution\MinimalAPI.Core\obj\Debug\net7.0\ref\MinimalAPI.Core.dll

@@ -1,46 +1,66 @@
-﻿using MinimalAPI.Core.ServiceContracts;
-using System.Text.Json;
+﻿using MinimalAPI.Core.DTO;
+using MinimalAPI.Core.ServiceContracts;
 
 namespace MinimalAPI.MapGroups
 {
-    public static class ProductsMapGroup 
+    public static class ProductsMapGroup
     {
         public static RouteGroupBuilder ProductsAPI(this RouteGroupBuilder groupBuilder)
         {
             groupBuilder.MapGet("/", async (HttpContext httpContext, IProductGetterService getterService) =>
             {
                 var allProducts = await getterService.GetAllProducts();
-                var jsonProduct = JsonSerializer.Serialize(allProducts);
-                await httpContext.Response.WriteAsync(jsonProduct);
+                return Results.Json(allProducts);
             });
 
-            groupBuilder.MapGet("/{productID:guid}", async (HttpContext httpContext, 
+            groupBuilder.MapGet("/{productID:guid}", async (HttpContext httpContext,
                 Guid productID, IProductGetterService getterService) =>
             {
                 var matchingProduct = await getterService.GetProductById(productID);
                 if (matchingProduct == null)
                 {
-                    httpContext.Response.StatusCode = 400;
-                    await httpContext.Response.WriteAsync("Invalid product id");
-                    return;
+                    return Results.BadRequest(new { error = "Invalid product id" });
                 }
-                var jsonProduct = JsonSerializer.Serialize(matchingProduct);
-                await httpContext.Response.WriteAsync(jsonProduct);
+                return Results.Json(matchingProduct);
             });
 
-            groupBuilder.MapPost("/products", async (httpContext) =>
+            groupBuilder.MapPost("/", async (HttpContext httpContext,
+                IProductAdderService adderService, ProductAddRequest newProduct) =>
             {
-                await httpContext.Response.WriteAsync("Post - Hello");
+                var product = await adderService.AddNewProduct(newProduct);
+                return Results.Json(product);
             });
 
-            groupBuilder.MapPut("/products/{productID:guid}", async (HttpContext httpContext, Guid productID) =>
+            groupBuilder.MapPut("/{productID:guid}", async (HttpContext httpContext, Guid productID,
+                IProductUpdaterService updaterService, ProductUpdateRequest productUpdateRequest) =>
             {
-                await httpContext.Response.WriteAsync("Put - Hello");
+                if (productID != productUpdateRequest.ProductId)
+                {
+                    return Results.BadRequest(new { 
+                        error = $"Given ID: {productID} do not match with given product to update" 
+                    });
+                }
+                var updatedProduct = await updaterService.UpdateProduct(productUpdateRequest);
+                if (updatedProduct == null)
+                {
+                    return Results.BadRequest(new { error = "Invalid product id" });
+                }
+                return Results.Json(updatedProduct);
             });
 
-            groupBuilder.MapDelete("/products/{productID:guid}", async (HttpContext httpContext, Guid productID) =>
+            groupBuilder.MapDelete("/{productID:guid}", async (HttpContext httpContext, Guid productID,
+                IProductDeleterService deleterService) =>
             {
-                await httpContext.Response.WriteAsync("Delete - Hello");
+                var isDeleted = await deleterService.DeleteProductByID(productID);
+                if (!isDeleted)
+                {
+                    return Results.BadRequest(new
+                    {
+                        error = "Invalid product id"
+                    });
+                }
+
+                return Results.Ok(new { message = $"Product with ID: {productID} deleted successfuly" });
             });
 
             return groupBuilder;

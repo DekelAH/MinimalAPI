@@ -7,16 +7,11 @@ namespace MinimalAPI.Infrastructure.DatabaseContext
     {
         #region Properties
 
-        public DbSet<Product> Products;
+        public DbSet<Product> Products { get; set; }
 
         #endregion
 
         #region Ctors
-
-        public ApplicationDbContext()
-        {
-            
-        }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o1eVZD3/nsRYxnJQ3s8kqpEAgHeNwLf7qrvuxiLIzUSqaA09Ntx/T2u/1Gd9YWGX6zblio4OuqtL1FxkwW7idA==",
+  "dgSpecHash": "+DkYlVeKx0aJ2RAYLy7yylaNL2pwacolKt4VlZp+0+Rbk9tJHqsrQw/43jCqgnispPfOgc8XULy0dKOH3T6ViA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
+  "projectFilePath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dekel\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dekel\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

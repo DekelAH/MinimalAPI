@@ -3508,11 +3508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
+      "projectUniqueName": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
       "projectName": "MinimalAPI",
-      "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
+      "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI\\MinimalAPI.csproj",
       "packagesPath": "C:\\Users\\dekel\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI\\obj\\",
+      "outputPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3529,11 +3529,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
-              "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj"
+            "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
+              "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj"
             },
-            "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {
-              "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj"
+            "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {
+              "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj"
             }
           }
         }

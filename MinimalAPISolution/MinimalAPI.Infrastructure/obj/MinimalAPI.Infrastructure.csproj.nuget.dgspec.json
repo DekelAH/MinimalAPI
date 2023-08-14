@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {}
+    "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
+    "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
+        "projectUniqueName": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
         "projectName": "MinimalAPI.Core",
-        "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
+        "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
         "packagesPath": "C:\\Users\\dekel\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\obj\\",
+        "outputPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {
+    "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
+        "projectUniqueName": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
         "projectName": "MinimalAPI.Infrastructure",
-        "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
+        "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dekel\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Infrastructure\\obj\\",
+        "outputPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
-                "projectPath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj"
+              "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
+                "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj"
               }
             }
           }

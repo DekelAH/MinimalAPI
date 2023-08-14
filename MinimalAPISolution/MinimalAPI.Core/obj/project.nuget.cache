@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JvnUp+UO2FhLQgauQLEJgohbtH6q5r7EJW/PnYUA2nfsp1KsbzxDnqzohsPS7csMTOCIx+yB/f0v7yOJDG7HHA==",
+  "dgSpecHash": "6I5wMsd06a2MufSwZPn6Ut/EqbL7OFGsrYG4Zdy8gHMqWcRPubISZd5v7K5/+2U6n2HucHndeq7aVeR4Q5oaGA==",
   "success": true,
-  "projectFilePath": "D:\\Programming\\ASP.NET Core\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
+  "projectFilePath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dekel\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "C:\\Users\\dekel\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.10\\microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
