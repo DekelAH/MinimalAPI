@@ -1,4 +1,4 @@
-﻿using MinimalAPI.Core.Domain;
+﻿using MinimalAPI.Core.Domain.Entities;
 
 namespace MinimalAPI.Core.DTO
 {

@@ -1,5 +1,7 @@
-﻿using MinimalAPI.Core.DTO;
+﻿using MinimalAPI.Core.Domain.Entities;
+using MinimalAPI.Core.DTO;
 using MinimalAPI.Core.ServiceContracts;
+using System.ComponentModel.DataAnnotations;
 
 namespace MinimalAPI.MapGroups
 {
@@ -29,23 +31,58 @@ namespace MinimalAPI.MapGroups
             {
                 var product = await adderService.AddNewProduct(newProduct);
                 return Results.Json(product);
+
+            }).AddEndpointFilter(async (EndpointFilterInvocationContext context, EndpointFilterDelegate next) =>
+            {
+                var product = context.Arguments.OfType<ProductAddRequest>().FirstOrDefault();
+                if (product == null)
+                {
+                    return Results.BadRequest("Product details are not found in the request");
+                }
+                var validationContext = new ValidationContext(product);
+                List<ValidationResult> ErrorsList = new List<ValidationResult>();
+                bool isValid = Validator.TryValidateObject(product, validationContext, ErrorsList, true);
+                if (!isValid)
+                {
+                    return Results.BadRequest(ErrorsList.Select(error => error?.ErrorMessage));
+                }
+
+                var result = await next(context);
+                return result;
             });
 
             groupBuilder.MapPut("/{productID:guid}", async (HttpContext httpContext, Guid productID,
                 IProductUpdaterService updaterService, ProductUpdateRequest productUpdateRequest) =>
             {
-                if (productID != productUpdateRequest.ProductId)
+                var updatedProduct = await updaterService.UpdateProduct(productUpdateRequest);
+                return Results.Json(updatedProduct);
+
+            }).AddEndpointFilter(async (EndpointFilterInvocationContext context, EndpointFilterDelegate next) =>
+            {
+                var id = context.Arguments.OfType<Guid>().FirstOrDefault();
+                var product = context.Arguments.OfType<ProductUpdateRequest>().FirstOrDefault();
+                if (product == null)
                 {
-                    return Results.BadRequest(new { 
-                        error = $"Given ID: {productID} do not match with given product to update" 
+                    return Results.BadRequest("Product details are not found in the request");
+                }
+                if (id != product.ProductId)
+                {
+                    return Results.BadRequest(new
+                    {
+                        error = $"Given ID: {id} do not match with given product to update"
                     });
                 }
-                var updatedProduct = await updaterService.UpdateProduct(productUpdateRequest);
-                if (updatedProduct == null)
+
+                var validationContext = new ValidationContext(product);
+                List<ValidationResult> ErrorsList = new List<ValidationResult>();
+                bool isValid = Validator.TryValidateObject(product, validationContext, ErrorsList, true);
+                if (!isValid)
                 {
-                    return Results.BadRequest(new { error = "Invalid product id" });
+                    return Results.BadRequest(ErrorsList.Select(error => error?.ErrorMessage));
                 }
-                return Results.Json(updatedProduct);
+
+                var result = await next(context);
+                return result;
             });
 
             groupBuilder.MapDelete("/{productID:guid}", async (HttpContext httpContext, Guid productID,

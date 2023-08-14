@@ -3,8 +3,9 @@
     "",
     "\\MinimalAPI",
     "\\MinimalAPI.Core",
-    "\\MinimalAPI.Infrastructure"
+    "\\MinimalAPI.Infrastructure",
+    "\\MinimalAPI\\MapGroups"
   ],
-  "SelectedNode": "\\MinimalAPISolution.sln",
+  "SelectedNode": "\\MinimalAPI\\MapGroups\\ProductsMapGroup.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -69,10 +69,10 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
-        "projectName": "MinimalAPI.Infrastructure",
+        "projectName": "MinimalAPI.Core",
         "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\MinimalAPI.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dekel\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Infrastructure\\obj\\",
+        "outputPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,11 +88,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj": {
-                "projectPath": "D:\\Programming\\Github Projects\\MinimalAPI\\MinimalAPISolution\\MinimalAPI.Core\\MinimalAPI.Core.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

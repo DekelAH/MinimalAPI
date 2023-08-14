@@ -1,4 +1,6 @@
-﻿namespace MinimalAPI.Core.Domain.RepositoryContracts
+﻿using MinimalAPI.Core.Domain.Entities;
+
+namespace MinimalAPI.Core.Domain.RepositoryContracts
 {
     public interface IProductUpdaterRepository
     {

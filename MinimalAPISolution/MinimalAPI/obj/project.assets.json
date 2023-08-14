@@ -1137,28 +1137,14 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.10"
-        },
-        "compile": {
-          "bin/placeholder/MinimalAPI.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MinimalAPI.Core.dll": {}
-        }
-      },
-      "MinimalAPI.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.10",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10",
-          "MinimalAPI.Core": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.10"
         },
         "compile": {
-          "bin/placeholder/MinimalAPI.Infrastructure.dll": {}
+          "bin/placeholder/MinimalAPI.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MinimalAPI.Infrastructure.dll": {}
+          "bin/placeholder/MinimalAPI.Core.dll": {}
         }
       }
     }
@@ -3483,11 +3469,6 @@
     },
     "MinimalAPI.Core/1.0.0": {
       "type": "project",
-      "path": "../MinimalAPI.Core/MinimalAPI.Core.csproj",
-      "msbuildProject": "../MinimalAPI.Core/MinimalAPI.Core.csproj"
-    },
-    "MinimalAPI.Infrastructure/1.0.0": {
-      "type": "project",
       "path": "../MinimalAPI.Infrastructure/MinimalAPI.Infrastructure.csproj",
       "msbuildProject": "../MinimalAPI.Infrastructure/MinimalAPI.Infrastructure.csproj"
     }
@@ -3498,8 +3479,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
-      "MinimalAPI.Core >= 1.0.0",
-      "MinimalAPI.Infrastructure >= 1.0.0"
+      "MinimalAPI.Core >= 1.0.0"
     ]
   },
   "packageFolders": {

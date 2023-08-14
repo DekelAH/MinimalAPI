@@ -1,4 +1,4 @@
-﻿using MinimalAPI.Core.Domain;
+﻿using MinimalAPI.Core.Domain.Entities;
 using MinimalAPI.Core.Domain.RepositoryContracts;
 using MinimalAPI.Infrastructure.DatabaseContext;
 
